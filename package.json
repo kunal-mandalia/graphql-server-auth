@@ -17,6 +17,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "test": "yarn jest --watch"
+    "test": "yarn jest",
+    "test-watch": "yarn jest --watch"
   }
 }
