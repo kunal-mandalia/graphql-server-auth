@@ -1,5 +1,5 @@
 {
-  "name": "private-apis",
+  "name": "graphql-server-auth",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Kunal Mandalia <kunal.v.mandalia@gmail.com> (http://kunalmandalia.com/)",
@@ -17,7 +17,6 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "test": "yarn jest --watch",
-    "CI": "yarn install && yarn jest"
+    "test": "yarn jest --watch"
   }
 }
