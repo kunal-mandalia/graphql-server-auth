@@ -1,0 +1,23 @@
+{
+  "name": "private-apis",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Kunal Mandalia <kunal.v.mandalia@gmail.com> (http://kunalmandalia.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "1.18.2",
+    "express": "4.16.2",
+    "express-graphql": "0.6.11",
+    "fetch": "1.1.0",
+    "graphql": "0.12.3",
+    "jest": "22.1.4",
+    "jsonwebtoken": "8.1.0",
+    "nodemon": "1.14.11"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "yarn jest --watch",
+    "CI": "yarn install && yarn jest"
+  }
+}
